@@ -1,170 +1,218 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <meta charset="utf-8" />
-    <title>Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Login</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        #modal:target {
+        #modal:target, #modal2:target, #modal3:target, #modal4:target, #modal5:target {
             display: flex;
         }
     </style>
 </head>
-<body>
-        <div class="relative overflow-x-auto">
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                    <tr>
-                        <th scope="col" class="px-6 py-3">
-                            Name
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                            Job Title
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                            Department
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                            Email
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                            Action
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            Ivan Petrov
-                        </th>
-                        <td class="px-6 py-4">
-                            Software Engineer
-                        </td>
-                        <td class="px-6 py-4">
-                            IT
-                        </td>
-                        <td class="px-6 py-4">
-                            ivan.petrov&#64;sinksrus.com
-                        </td>
-                        <td class="px-6 py-4">
-                            <a href="#modal" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Learn More</a>
-                        </td>
-                    </tr>
-                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            Perdro Los Ba&#241;os
-                        </th>
-                        <td class="px-6 py-4">
-                            Marketing Manager
-                        </td>
-                        <td class="px-6 py-4">
-                            Marketing
-                        </td>
-                        <td class="px-6 py-4">
-                            pedro_los_banos&#64;sinksrus.com
-                        </td>
-                        <td class="px-6 py-4">
-                            <a href="#modal" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Learn More</a>
-                        </td>
-                    </tr>
-                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            Ana G&#243;mez
-                        </th>
-                        <td class="px-6 py-4">
-                            HR Specialist
-                        </td>
-                        <td class="px-6 py-4">
-                            HR
-                        </td>
-                        <td class="px-6 py-4">
-                            ana.gomez&#64;sinksrus.com
-                        </td>
-                        <td class="px-6 py-4">
-                            <a href="#modal" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Learn More</a>
-                        </td>
-                    </tr>
-                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            John Wu
-                        </th>
-                        <td class="px-6 py-4">
-                            Sales Associate
-                        </td>
-                        <td class="px-6 py-4">
-                            Sales
-                        </td>
-                        <td class="px-6 py-4">
-                            john.wu&#64;sinksrus.com
-                        </td>
-                        <td class="px-6 py-4">
-                            <a href="#modal" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Learn More</a>
-                        </td>
-                    </tr>
-                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                        <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            Emma Wilson
-                        </th>
-                        <td class="px-6 py-4">
-                            CEO
-                        </td>
-                        <td class="px-6 py-4">
-                            Admin
-                        </td>
-                        <td class="px-6 py-4">
-                            emma&#64;sinksrus.com
-                        </td>
-                        <td class="px-6 py-4">
-                            <a href="#modal" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Learn More</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <div id="modal" class="fixed inset-0 flex items-center justify-center hidden bg-gray-800 bg-opacity-50">
-                <div class="relative overflow-x-auto">
-                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                            <tr>
-                                <th scope="col" class="px-6 py-3">
-                                    Contact No
-                                </th>
-                                <th scope="col" class="px-6 py-3">
-                                    Address
-                                </th>
-                                <th scope="col" class="px-6 py-3">
-                                    Sex
-                                </th>
-                                <th scope="col" class="px-6 py-3">
-                                    Marital Status
-                                </th>
-                                <th scope="col" class="px-6 py-3">
-                                    Action
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                <th class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                    555-679
-                                </th>
-                                <td class="px-6 py-4">
-                                    12 Red Square, Moscow
-                                </td>
-                                <td class="px-6 py-4">
-                                    Male
-                                </td>
-                                <td class="px-6 py-4">
-                                    Single
-                                </td>
-                                <td class="px-6 py-4">
-                                    <a href="#" class="mt-4 bg-red-500 text-white px-4 py-2 rounded">Close</a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                </div>
+<body class="bg-[#697565] text-[#3C3D37]">
+    <header class="text-center py-10 bg-[#10120d] text-[#ECDFCC] text-4xl font-bold">
+        Sinks R Us
+    </header>
+    <div class="relative overflow-x-auto mt-2">
+        <table class="w-full text-sm text-left text-[#3C3D37]">
+            <thead class="text-xs text-[#ECDFCC] uppercase bg-[#10120d]">
+                <tr>
+                    <th scope="col" class="px-6 py-3">Name</th>
+                    <th scope="col" class="px-6 py-3">Job Title</th>
+                    <th scope="col" class="px-6 py-3">Department</th>
+                    <th scope="col" class="px-6 py-3">Email</th>
+                    <th scope="col" class="px-6 py-3">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-[#ECDFCC] border-b border-[#3C3D37] hover:bg-[#dbceba]">
+                    <th class="px-6 py-4 font-medium text-[#3C3D37] whitespace-nowrap">
+                        Ivan Petrov
+                    </th>
+                    <td class="px-6 py-4">Software Engineer</td>
+                    <td class="px-6 py-4">IT</td>
+                    <td class="px-6 py-4">ivan.petrov&#64;sinksrus.com</td>
+                    <td class="px-6 py-4">
+                        <a href="#modal" class="bg-[#10120d] text-white px-4 py-2 rounded hover:bg-[#697565]">Learn More</a>
+                    </td>
+                </tr>
+                <tr class="bg-[#ECDFCC] border-b border-[#3C3D37] hover:bg-[#dbceba]">
+                    <th class="px-6 py-4 font-medium text-[#3C3D37] whitespace-nowrap">
+                        Perdro Los Ba&#241;os
+                    </th>
+                    <td class="px-6 py-4">Marketing Manager</td>
+                    <td class="px-6 py-4">Marketing</td>
+                    <td class="px-6 py-4">pedro_los_banos&#64;sinksrus.com</td>
+                    <td class="px-6 py-4">
+                        <a href="#modal2" class="bg-[#10120d] text-white px-4 py-2 rounded hover:bg-[#697565]">Learn More</a>
+                    </td>
+                </tr>
+                <tr class="bg-[#ECDFCC] border-b border-[#3C3D37] hover:bg-[#dbceba]">
+                    <th class="px-6 py-4 font-medium text-[#3C3D37] whitespace-nowrap">
+                        Ana G&#243;mez
+                    </th>
+                    <td class="px-6 py-4">HR Specialist</td>
+                    <td class="px-6 py-4">HR</td>
+                    <td class="px-6 py-4">ana.gomez&#64;sinksrus.com</td>
+                    <td class="px-6 py-4">
+                        <a href="#modal3" class="bg-[#10120d] text-white px-4 py-2 rounded hover:bg-[#697565]">Learn More</a>
+                    </td>
+                </tr>
+                <tr class="bg-[#ECDFCC] border-b border-[#3C3D37] hover:bg-[#dbceba]">
+                    <th class="px-6 py-4 font-medium text-[#3C3D37] whitespace-nowrap">
+                        John Wu
+                    </th>
+                    <td class="px-6 py-4">Sales Associate</td>
+                    <td class="px-6 py-4">Sales</td>
+                    <td class="px-6 py-4">john.wu&#64;sinksrus.com</td>
+                    <td class="px-6 py-4">
+                        <a href="#modal4" class="bg-[#10120d] text-white px-4 py-2 rounded hover:bg-[#697565]">Learn More</a>
+                    </td>
+                </tr>
+                <tr class="bg-[#ECDFCC] border-b border-[#3C3D37] hover:bg-[#dbceba]">
+                    <th class="px-6 py-4 font-medium text-[#3C3D37] whitespace-nowrap">
+                        Emma Wilson
+                    </th>
+                    <td class="px-6 py-4">CEO</td>
+                    <td class="px-6 py-4">Admin</td>
+                    <td class="px-6 py-4">emma&#64;sinksrus.com</td>
+                    <td class="px-6 py-4">
+                        <a href="#modal5" class="bg-[#10120d] text-white px-4 py-2 rounded hover:bg-[#697565]">Learn More</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="modal" class="fixed inset-0 flex items-center justify-center hidden bg-[#10120d] bg-opacity-75">
+            <div class="relative overflow-x-auto">
+                <table class="w-full text-sm text-left text-gray-600">
+                    <thead class="text-xs text-[#ECDFCC] uppercase bg-[#10120d]">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">Contact No</th>
+                            <th scope="col" class="px-6 py-3">Address</th>
+                            <th scope="col" class="px-6 py-3">Sex</th>
+                            <th scope="col" class="px-6 py-3">Marital Status</th>
+                            <th scope="col" class="px-6 py-3">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-[#ECDFCC] border-b border-[#3C3D37] hover:bg-[#dbceba]">
+                            <th class="px-6 py-4 font-medium text-[#3C3D37] whitespace-nowrap">555-6789</th>
+                            <td class="px-6 py-4">12 Red Square, Moscow</td>
+                            <td class="px-6 py-4">Male</td>
+                            <td class="px-6 py-4">Single</td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="mt-4 bg-[#10120d] text-white px-4 py-2 rounded hover:bg-[#697565]">Close</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
+        <div id="modal2" class="fixed inset-0 flex items-center justify-center hidden bg-[#10120d] bg-opacity-75">
+            <div class="relative overflow-x-auto">
+                <table class="w-full text-sm text-left text-gray-600">
+                    <thead class="text-xs text-[#ECDFCC] uppercase bg-[#10120d]">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">Contact No</th>
+                            <th scope="col" class="px-6 py-3">Address</th>
+                            <th scope="col" class="px-6 py-3">Sex</th>
+                            <th scope="col" class="px-6 py-3">Marital Status</th>
+                            <th scope="col" class="px-6 py-3">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-[#ECDFCC] border-b border-[#3C3D37] hover:bg-[#dbceba]">
+                            <th class="px-6 py-4 font-medium text-[#3C3D37] whitespace-nowrap"></th>
+                            <td class="px-6 py-4">123 Mabini St</td>
+                            <td class="px-6 py-4">Male</td>
+                            <td class="px-6 py-4">Married</td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="mt-4 bg-[#10120d] text-white px-4 py-2 rounded hover:bg-[#697565]">Close</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="modal3" class="fixed inset-0 flex items-center justify-center hidden bg-[#10120d] bg-opacity-75">
+            <div class="relative overflow-x-auto">
+                <table class="w-full text-sm text-left text-gray-600">
+                    <thead class="text-xs text-[#ECDFCC] uppercase bg-[#10120d]">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">Contact No</th>
+                            <th scope="col" class="px-6 py-3">Address</th>
+                            <th scope="col" class="px-6 py-3">Sex</th>
+                            <th scope="col" class="px-6 py-3">Marital Status</th>
+                            <th scope="col" class="px-6 py-3">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-[#ECDFCC] border-b border-[#3C3D37] hover:bg-[#dbceba]">
+                            <th class="px-6 py-4 font-medium text-[#3C3D37] whitespace-nowrap">555-1526</th>
+                            <td class="px-6 py-4"></td>
+                            <td class="px-6 py-4">Female</td>
+                            <td class="px-6 py-4">Divorced</td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="mt-4 bg-[#10120d] text-white px-4 py-2 rounded hover:bg-[#697565]">Close</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="modal4" class="fixed inset-0 flex items-center justify-center hidden bg-[#10120d] bg-opacity-75">
+            <div class="relative overflow-x-auto">
+                <table class="w-full text-sm text-left text-gray-600">
+                    <thead class="text-xs text-[#ECDFCC] uppercase bg-[#10120d]">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">Contact No</th>
+                            <th scope="col" class="px-6 py-3">Address</th>
+                            <th scope="col" class="px-6 py-3">Sex</th>
+                            <th scope="col" class="px-6 py-3">Marital Status</th>
+                            <th scope="col" class="px-6 py-3">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-[#ECDFCC] border-b border-[#3C3D37] hover:bg-[#dbceba]">
+                            <th class="px-6 py-4 font-medium text-[#3C3D37] whitespace-nowrap">555-6925</th>
+                            <td class="px-6 py-4">456 Rizal St</td>
+                            <td class="px-6 py-4">Male</td>
+                            <td class="px-6 py-4">Single</td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="mt-4 bg-[#10120d] text-white px-4 py-2 rounded hover:bg-[#697565]">Close</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="modal5" class="fixed inset-0 flex items-center justify-center hidden bg-[#10120d] bg-opacity-75">
+            <div class="relative overflow-x-auto">
+                <table class="w-full text-sm text-left text-gray-600">
+                    <thead class="text-xs text-[#ECDFCC] uppercase bg-[#10120d]">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">Contact No</th>
+                            <th scope="col" class="px-6 py-3">Address</th>
+                            <th scope="col" class="px-6 py-3">Sex</th>
+                            <th scope="col" class="px-6 py-3">Marital Status</th>
+                            <th scope="col" class="px-6 py-3">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-[#ECDFCC] border-b border-[#3C3D37] hover:bg-[#dbceba]">
+                            <th class="px-6 py-4 font-medium text-[#3C3D37] whitespace-nowrap">555-1111</th>
+                            <td class="px-6 py-4"></td>
+                            <td class="px-6 py-4">Female</td>
+                            <td class="px-6 py-4">Married</td>
+                            <td class="px-6 py-4">
+                                <a href="#" class="mt-4 bg-[#10120d] text-white px-4 py-2 rounded hover:bg-[#697565]">Close</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
